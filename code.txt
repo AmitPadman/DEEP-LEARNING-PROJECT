@@ -1,0 +1,54 @@
+#data science projects a functional model with visualizations of result
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Sample data for demonstration
+# Replace with your actual data and analysis
+
+# Example 1: Simple Scatter Plot
+x = np.random.rand(50)
+y = 2 * x + 1 + np.random.randn(50) * 0.5
+
+plt.figure(figsize=(8, 6))
+plt.scatter(x, y, label="Data Points")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("Scatter Plot of Sample Data")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Example 2: Bar Chart
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [25, 35, 15, 20, 10]
+
+plt.figure(figsize=(6, 4))
+plt.bar(categories, values, color='skyblue')
+plt.xlabel("Categories")
+plt.ylabel("Values")
+plt.title("Bar Chart of Categorical Data")
+plt.show()
+
+# Example 3: Histogram
+data = np.random.randn(1000)  # 1000 random numbers from standard normal distribution
+
+plt.figure(figsize=(8, 6))
+plt.hist(data, bins=30, color='lightgreen', edgecolor='black')
+plt.xlabel("Value")
+plt.ylabel("Frequency")
+plt.title("Histogram of Random Data")
+plt.show()
+
+# Example 4: Line Plot (timeseries data)
+time = np.arange(0, 10, 0.1)
+amplitude = np.sin(time)
+
+plt.figure(figsize=(8, 6))
+plt.plot(time, amplitude, color='orange', label="Sine Wave")
+plt.xlabel("Time")
+plt.ylabel("Amplitude")
+plt.title("Sine Wave Plot")
+plt.legend()
+plt.grid(True)
+plt.show()
