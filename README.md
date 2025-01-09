@@ -26,6 +26,12 @@ A functional deep learning model leverages modular and flexible frameworks like 
 3) Histogram of random data
 4) Sine wave plot
 
+**OUTPUT**
+
+![Screenshot 2025-01-09 113417](https://github.com/user-attachments/assets/f1284a15-49e7-45f5-9b65-13f237379f4f)
+![Screenshot 2025-01-09 113501](https://github.com/user-attachments/assets/277371eb-7f8d-4d97-a32f-6f293fd4771e)
+![Screenshot 2025-01-09 113625](https://github.com/user-attachments/assets/cb1f9e04-da37-4d28-a105-a6c34e7ce50c)
+![Screenshot 2025-01-09 113855](https://github.com/user-attachments/assets/c703aa6b-2092-40a2-9967-a9355f5cf118)
 
 
 
